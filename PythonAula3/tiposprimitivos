@@ -1,0 +1,9 @@
+# str; int; bool; float
+#bool só retorna true e false; todo int é float; se não definimos o tipo da variável, ela será lida como string.
+# Operações com "print": print(n.is....()), sendo n uma variável qualquer;
+# type(n) retorna o tipo da variável
+
+n = input('Digite algo: ')
+print('Só tem espaços: ', n.isspace())
+print('É numérico: ', n.isnumeric())
+print('São letras: ', n.isalpha())
