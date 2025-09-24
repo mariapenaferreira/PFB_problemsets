@@ -1,0 +1,21 @@
+#Iterar = percorrer elementos de uma sequência, um por um, executando uma ação a cada passo.
+
+num = [101,2,15,22,95,33,2,27,72,15,52]
+
+for valor in num:
+	if valor%2 == 0:
+		print(valor)
+
+num.sort()
+
+pares = 0
+impares = 0
+
+for valor in num:
+	print(valor)
+	if valor%2 == 0:
+		pares += valor
+	else:
+		impares += valor
+print('A soma dos valores pares é {}.'.format(pares))
+print('A soma dos valores ímpares é {}.'.format(impares))

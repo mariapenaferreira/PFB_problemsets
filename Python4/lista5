@@ -1,0 +1,11 @@
+#usar o loop while p calcular o fatorial de 1000
+
+n = 1000
+fatorial = 1
+contador = 1 
+
+while contador <= n:
+	fatorial *= contador
+	contador += 1
+
+print('O valor de 1000! é {}.'.format(fatorial))

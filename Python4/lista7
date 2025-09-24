@@ -1,0 +1,15 @@
+#range(a, b) gera os números de a até b-1
+
+for i in range(100):
+	print(i)
+
+for t in range(1,101):
+	print(t)
+
+#usando compreensão de lista para fazer o mesmo comando
+
+num = [i for i in range(1, 101)]
+print(num)
+
+# Usando compreensão de lista + print formatado
+print(*[i for i in range(1, 101)])

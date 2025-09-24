@@ -1,0 +1,7 @@
+#escreva um script q use o loop while para imprimir os números de 1 a 100
+
+n = 1
+while n < 101:
+	print('Contagem', n)
+	n+=1
+print('Feito')

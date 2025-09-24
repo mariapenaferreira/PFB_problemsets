@@ -1,0 +1,11 @@
+import sys
+
+# Pega os argumentos da linha de comando
+inicio = int(sys.argv[1])  
+# primeiro argumento (depois do nome do script)
+fim = int(sys.argv[2])     
+# segundo argumento
+
+# Loop para imprimir os números
+for i in range(inicio, fim + 1):
+    print(i)
