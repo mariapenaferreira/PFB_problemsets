@@ -1,0 +1,35 @@
+#dicionários
+
+fav = {'livro' : 'As intermitências da morte', 'musica' : 'segundo sol', 'sobremesa' : 'torta'}
+
+print(fav['livro'])
+
+fav_livro = 'livro'
+print(fav[fav_livro])
+
+# é diferente de: 
+
+print(fav_livro)
+
+fav['arvore'] = 'ipê'
+
+print(fav)
+# o valor ipê e a chave árvore foram automaticamente incorporados no dicionário fav
+# agora vamos criar uma forma do usuário escolher entre as chaves para ver o valor
+
+print('Escolha uma das opções: ', list(fav.keys()))
+fav_thing = input('Digite a chave que quer consultar: ')
+print('O valor é: ', fav[fav_thing])
+
+# agora o usuário vai escolher uma das chaves para alterar
+
+print('Chaves atuais: ', list(fav.keys()))
+fav_thing = input('Digite a chave que quer alterar: ')
+thing = input(f'Digite o novo valor de {fav_thing}: ')
+fav[fav_thing] = thing
+
+print('Dicionário atualizado: ', fav)
+
+print("\nDicionário completo:")
+for chave, valor in fav.items():
+    print(chave, ":", valor)

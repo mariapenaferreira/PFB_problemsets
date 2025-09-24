@@ -1,0 +1,12 @@
+#Conjuntos
+# Crie um conjunto usando as duas sintaxes diferentes para criar um conjunto, myset = set() e myset2 = {}. 
+#Qual é a diferença? Importa como você cria o conjunto?
+
+mySet = set('ATGTGGG')
+mySet2 = {'ATGCCT'}
+
+print(mySet)
+print(mySet2)
+
+# "set" elimina elementos repetidos
+
