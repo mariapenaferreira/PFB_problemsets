@@ -1,0 +1,5 @@
+#import *math* 
+#from *math* import *sqrt*
+# no python.org podemos ver todas as bibliotecas disponíveis para cada versão de python; 
+# no python.org temos a seção PyPI com bibliotecas extras criadas por programadores e disponibilizadas para a comunidade, sobre infinitos assuntos; para importar elas, temos que instalar antes de usar o comando import diretamente.
+ 
